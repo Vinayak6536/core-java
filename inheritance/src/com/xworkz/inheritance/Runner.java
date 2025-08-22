@@ -69,6 +69,7 @@ import com.xworkz.inheritance.example9.Brand;
 
 public class Runner {
     public static void main(String[] args) {
+        System.out.println("Main Started");
         Medicine dolo=new Dolo();
         Chocolate dairyMilk=new DairyMilk();
         Cloth shirt=new Shirt();
@@ -102,5 +103,6 @@ public class Runner {
         Harbour mangalore=new NewMangalore();
         Trainer dev=new Dev();
         SearchEngine google=new Google();
+        System.out.println("Main Ended");
     }
 }
